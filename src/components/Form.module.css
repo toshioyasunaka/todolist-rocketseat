@@ -1,0 +1,40 @@
+.form {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+  margin-top: -1.6875rem;
+}
+
+.form input {
+  padding: 1rem; 
+  border-radius: 8px;
+  width: 39.875rem;
+  height: 3.375rem;
+  border: 1px solid var(--gray-700);
+  color: var(--gray-100);
+  background-color: var(--gray-500);
+}
+
+.form input:focus {
+  outline: none;
+}
+
+.form button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 1rem;
+  border-radius: 8px;
+  color: var(--gray-100);
+  background-color: var(--blue-dark);
+  border: none;
+  height: 3.25rem;
+  width: 5.625rem;
+  font-size: 0.875rem;
+  cursor: pointer;
+}
+
+.form button img {
+  height: 1rem;
+}
